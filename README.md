@@ -16,7 +16,7 @@ A Google Apps account, so you can create a Google Sheet.
 2. In the menu select "Tools" then "< > Script editor". This will open a new browser tab for writing your script.
 3. In the new browser tab select File -> New -> Script file. Name the script "app" and click the Ok button.
 4. You now have a new script called `app.gs` on the left side menu. Click on app.gs if you are not automatically brought into that file.
-5. Copy the code [here]('app.gs') and past it into your `app.gs` file.
+5. Copy the code [here](app.gs) and past it into your `app.gs` file.
 
 
 
