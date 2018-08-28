@@ -14,9 +14,9 @@ A Google Apps account, so you can create a Google Sheet.
     3. "Status"
     4. "When"
     
-Make sure the format of the cells is set to "Plain text", except for the "When" column. Make sure those cells are formatted using the format circled in the following image:
+    Make sure the format of the cells is set to "Plain text", except for the "When" column. Make sure those cells are formatted using the format circled in the following image:
 
-![Cell Format](/assets/images/cellFormat.png)
+    ![Cell Format](/assets/images/cellFormat.png)
 
 2. In the sheet menu select "Tools" then "< > Script editor". This will open a new browser tab for writing your script.
 3. In the new browser tab select File -> New -> Script file. Name the script "app" and click the Ok button.
@@ -24,15 +24,15 @@ Make sure the format of the cells is set to "Plain text", except for the "When" 
 5. Copy the code [here](app.gs) and past it into your `app.gs` file and save your `app.gs` file.
 6. Add the Moments library to your script by going to Resources -> Libraries like shown here:
 
-![Libraries](/assets/images/libraries.png)
+    ![Libraries](/assets/images/libraries.png)
 
-Copy this code: **Mcun7NPepfBJFDW-iuQnbdo147xIduJpS**
+    Copy this code: **Mcun7NPepfBJFDW-iuQnbdo147xIduJpS**
 
-Paste the code into Add a Library and click the add, then Save button like in the following image:
+    Paste the code into Add a Library and click the add, then Save button like in the following image:
 
-![Add Moment Lib](/assets/images/addMoment.png)
+    ![Add Moment Lib](/assets/images/addMoment.png)
 
-The Moments library allows your script to access the timzone data in your Google Sheet's settings. You can change the Spreadsheet timezone by going back to the Spreadsheet, click "File" then "Spreadsheet settings..."
+    The Moments library allows your script to access the timzone data in your Google Sheet's settings. You can change the Spreadsheet timezone by going back to the Spreadsheet, click "File" then "Spreadsheet settings..."
 
 7. Time to add the necessary properties, so your code will work. Back on the browser tab where you've been writing your code click the "File" menu, then "Project properties", then click the "Script properties" tab in the window that pops up. This is where you will need your Twilio Account SID, Auth Token, and phone number. Plus you will be setting several other properties. Using the image below as your guide. Add the same exact properties you see in the image. Replace the blurred out parts for your specific information. 
 
