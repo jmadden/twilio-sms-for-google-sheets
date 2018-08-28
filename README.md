@@ -42,8 +42,12 @@ A Google Apps account, so you can create a Google Sheet.
 
     ![Sheet Properties Example](/assets/images/SheetProperties.png)
 
-8. Finally our last piece of configuration is to set a Trigger on your spreadsheet's code. This Trigger will tell your code when to run. Click "Edit", then "Current project's triggers" and a small window will open so you can confingure a time based Trigger. Following is an example image of a Trigger:
+8. Finally our last piece of configuration is to set a Trigger on your spreadsheet's code. This Trigger will tell your code when to run. Click "Edit", then "Current project's triggers" and a small window will open so you can confingure a time based Trigger. Following is an example image of a Trigger configuration:
 
     ![Script Trigger](/assets/images/trigger.png)
     
-
+    Make sure you set "Run" to the `runApp` function, then configure the times to the settings of your choice.
+    
+ ## So, how does this all work?
+In your spreadsheet use the "When" column to designate dates and times of when you would like a message to be sent. When your Trigger runs it will activate the code in our `app.gs` script. The code will look at the current time of day in the timezone you set in your spreadsheet. It will compare the current time of day with the date and time in the "When" column. If the value of the "When" column is in the past, or equal to the current time then the message will be sent. Adjust the timing of your trigger to coincide with the frequency of the date and times in the "When" column.
+ 
