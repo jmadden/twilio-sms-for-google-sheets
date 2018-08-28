@@ -24,7 +24,7 @@ A Google Apps account, so you can create a Google Sheet.
 5. Copy the code [here](app.gs) and past it into your `app.gs` file and save your `app.gs` file.
 6. Add the Moments library to your script by going to Resources -> Libraries like shown here:
 
-      ![Libraries](/assets/images/libraries.png)
+        ![Libraries](/assets/images/libraries.png)
 
     Copy this code: **Mcun7NPepfBJFDW-iuQnbdo147xIduJpS**
 
