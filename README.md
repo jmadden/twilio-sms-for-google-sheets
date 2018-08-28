@@ -13,6 +13,7 @@ A Google Apps account, so you can create a Google Sheet.
     2. "Message Body"
     3. "Status"
     4. "When"
+    
 Make sure the format of the cells is set to "Plain text", except for the "When" column. Make sure those cells are formatted using the format circled in the following image:
 ![Cell Format](/assets/images/cellFormat.png)
 2. In the sheet menu select "Tools" then "< > Script editor". This will open a new browser tab for writing your script.
