@@ -24,7 +24,7 @@ A Google Apps account, so you can create a Google Sheet.
 5. Copy the code [here](app.gs) and past it into your `app.gs` file and save your `app.gs` file.
 6. Add the Moments library to your script by going to Resources -> Libraries like shown here:
 
-        ![Libraries](/assets/images/libraries.png)
+    ![Libraries](/assets/images/libraries.png)
 
     Copy this code: **Mcun7NPepfBJFDW-iuQnbdo147xIduJpS**
 
@@ -38,7 +38,7 @@ A Google Apps account, so you can create a Google Sheet.
 
     The `DateFormat` you should keep the same value that is in the image. 
 
-    The `spreadsheetUrl` is the URL back over in your spreadsheet browser tab. Copy the full URL except for anything after the word edit. 
+    The `spreadsheetUrl` is the URL back over in your spreadsheet browser tab. Copy the full URL except for anything after the word "edit". **NOTE!**: When you first run this script your spreadsheet should request edit access for the script, as if you're sharing editing rights another user. You should allow this or the script won't work.
 
     ![Sheet Properties Example](/assets/images/SheetProperties.png)
 
