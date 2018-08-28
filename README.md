@@ -15,7 +15,7 @@ A Google Apps account, so you can create a Google Sheet.
     4. "When"
 2. In the sheet menu select "Tools" then "< > Script editor". This will open a new browser tab for writing your script.
 3. In the new browser tab select File -> New -> Script file. Name the script "app" and click the Ok button.
-4. You now have a new script called `app.gs` on the left side menu. Click on app.gs if you are not automatically brought into that file.
+4. You now have a new script called `app.gs` on the left side menu. Click on `app.gs` if you are not automatically brought into that file.
 5. Copy the code [here](app.gs) and past it into your `app.gs` file and save your `app.gs` file.
 6. Add the Moments library to your script by going to Resources -> Libraries like shown here:
 
@@ -26,6 +26,9 @@ Copy this code: **Mcun7NPepfBJFDW-iuQnbdo147xIduJpS**
 Paste the code into Add a Library and click the add, then Save button like in the following image:
 
 ![Add Moment Lib](/assets/images/addMoment.png)
+
+The Moments library allows your script to access the timzone data in your Google Sheet's settings. You can change the Spreadsheet timezone by going back to the Spreadsheet, click "File" then "Spreadsheet settings..."
+
 
 
 ![Sheet Properties Example](/assets/images/SheetProperties.png)
