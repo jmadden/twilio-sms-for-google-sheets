@@ -21,8 +21,10 @@ A Google Apps account, so you can create a Google Sheet.
 
 ![Libraries](/assets/images/libraries.png)
 
-Copy this code: Mcun7NPepfBJFDW-iuQnbdo147xIduJpS.
-Paste the code into Add a Library and click the add, then Save button
+Copy this code: **Mcun7NPepfBJFDW-iuQnbdo147xIduJpS**
+
+Paste the code into Add a Library and click the add, then Save button like in the following image:
+
 ![Add Moment Lib](/assets/images/addMoment.png)
 
 
