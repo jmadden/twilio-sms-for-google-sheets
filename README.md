@@ -42,3 +42,6 @@ A Google Apps account, so you can create a Google Sheet.
 
     ![Sheet Properties Example](/assets/images/SheetProperties.png)
 
+8. Finally our last piece of configuration is to set a Trigger on your spreadsheet's code. This Trigger will tell your code when to run. Click "Edit", then "Current project's triggers" and a small window will open so you can fingure a time based Trigger. Following is an example image of a Trigger:
+
+    ![Script Trigger](/assets/images/trigger.png)
