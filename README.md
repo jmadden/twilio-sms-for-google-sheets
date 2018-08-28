@@ -34,5 +34,10 @@ Paste the code into Add a Library and click the add, then Save button like in th
 
 The Moments library allows your script to access the timzone data in your Google Sheet's settings. You can change the Spreadsheet timezone by going back to the Spreadsheet, click "File" then "Spreadsheet settings..."
 
-7. Time to add the necessary properties.
+7. Time to add the necessary properties, so your code will work. Back on the browser tab where you've been writing your code click the "File" menu, then "Project properties", then click the "Script properties" tab in the window that pops up. This is where you will need your Twilio Account SID, Auth Token, and phone number. Plus you will be setting several other properties. Using the image below as your guide. Add the same exact properties you see in the image. Replace the blurred out parts for your specific information. 
+
+The `DateFormat` you should keep the same value that is in the image. 
+
+The `spreadsheetUrl` is the URL 
+
 ![Sheet Properties Example](/assets/images/SheetProperties.png)
