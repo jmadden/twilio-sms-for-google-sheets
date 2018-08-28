@@ -41,3 +41,4 @@ A Google Apps account, so you can create a Google Sheet.
     The `spreadsheetUrl` is the URL back over in your spreadsheet browser tab. Copy the full URL except for anything after the word edit. 
 
     ![Sheet Properties Example](/assets/images/SheetProperties.png)
+
