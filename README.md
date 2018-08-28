@@ -15,7 +15,9 @@ A Google Apps account, so you can create a Google Sheet.
     4. "When"
     
 Make sure the format of the cells is set to "Plain text", except for the "When" column. Make sure those cells are formatted using the format circled in the following image:
+
 ![Cell Format](/assets/images/cellFormat.png)
+
 2. In the sheet menu select "Tools" then "< > Script editor". This will open a new browser tab for writing your script.
 3. In the new browser tab select File -> New -> Script file. Name the script "app" and click the Ok button.
 4. You now have a new script called `app.gs` on the left side menu. Click on `app.gs` if you are not automatically brought into that file.
