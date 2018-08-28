@@ -8,11 +8,13 @@ Twilio Account SID, Auth Token and phone number. You can find your Account SID a
 A Google Apps account, so you can create a Google Sheet.
 
 ## Instructions
-1. Create a new Google Sheet and Give it 4 Columns
+1. Create a new Google Sheet and Give it 4 Columns.  
     1. "To Phone Number"
     2. "Message Body"
     3. "Status"
     4. "When"
+Make sure the format of the cells is set to "Plain text", except for the "When" column. Make sure those cells are formatted using the format circled in the following image:
+![Cell Format](/assets/images/cellFormat.png)
 2. In the sheet menu select "Tools" then "< > Script editor". This will open a new browser tab for writing your script.
 3. In the new browser tab select File -> New -> Script file. Name the script "app" and click the Ok button.
 4. You now have a new script called `app.gs` on the left side menu. Click on `app.gs` if you are not automatically brought into that file.
@@ -29,6 +31,5 @@ Paste the code into Add a Library and click the add, then Save button like in th
 
 The Moments library allows your script to access the timzone data in your Google Sheet's settings. You can change the Spreadsheet timezone by going back to the Spreadsheet, click "File" then "Spreadsheet settings..."
 
-
-
+7. Time to add the necessary properties.
 ![Sheet Properties Example](/assets/images/SheetProperties.png)
