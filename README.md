@@ -40,4 +40,4 @@ The Moments library allows your script to access the timzone data in your Google
 
     The `spreadsheetUrl` is the URL back over in your spreadsheet browser tab. Copy the full URL except for anything after the word edit. 
 
-![Sheet Properties Example](/assets/images/SheetProperties.png)
+    ![Sheet Properties Example](/assets/images/SheetProperties.png)
