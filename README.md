@@ -38,7 +38,7 @@ A Google Apps account, so you can create a Google Sheet.
 
     The `DateFormat` you should keep the same value that is in the image. 
 
-    The `spreadsheetUrl` is the URL back over in your spreadsheet browser tab. Copy the full URL except for anything after the word "edit". **NOTE!**: When you first run this script your spreadsheet should request edit access for the script, as if you're sharing editing rights another user. You should allow this or the script won't work.
+    The `spreadsheetUrl` is the URL back over in your spreadsheet browser tab. Copy the full URL except for anything after the word "edit". **NOTE!**: When you first run this script your spreadsheet should request edit access for the script, as if you're sharing editing rights with another user. You should allow this or the script won't work.
 
     ![Sheet Properties Example](/assets/images/SheetProperties.png)
 
