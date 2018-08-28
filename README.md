@@ -38,6 +38,6 @@ The Moments library allows your script to access the timzone data in your Google
 
     The `DateFormat` you should keep the same value that is in the image. 
 
-    The `spreadsheetUrl` is the URL 
+    The `spreadsheetUrl` is the URL back over in your spreadsheet browser tab. Copy the full URL except for anything after the word edit. 
 
 ![Sheet Properties Example](/assets/images/SheetProperties.png)
