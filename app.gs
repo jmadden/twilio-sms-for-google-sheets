@@ -58,19 +58,22 @@ function sendAll() {
     // Returns the Google Sheet's timezone info as an object.
     var when = Moment.moment.tz(data[i][3], dateFormat, spreadSheet.getSpreadsheetTimeZone());
     
+    var now = new Date();
+    
     // Compares the current time to the "When" time in the sheet. 
     // Sends SMS if "When" time is older or equal to the current time.
-    if (isNaN(when) || !when.isValid() || (when.toDate() >= Date.now())) continue;
+    if (isNaN(when) || !when.isValid() || (when.toDate() >= now)){  
     
-    // Try sending SMS.
-    try {
-      response_data = sendSms(row[0], row[1]);
-      status = "sent";
-    } catch(err) {
-      Logger.log(err);
-      status = "error";
+      // Try sending SMS.
+      try {
+        response_data = sendSms(row[0], row[1]);
+        status = "sent";
+      } catch(err) {
+        Logger.log(err);
+        status = "error";
+      }
+      sheet.getRange(startRow + Number(i), 3).setValue(status);
     }
-    sheet.getRange(startRow + Number(i), 3).setValue(status);
   }
 }
 
